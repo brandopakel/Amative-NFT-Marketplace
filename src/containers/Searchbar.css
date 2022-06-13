@@ -1,0 +1,62 @@
+.navbar_search_box{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    width: 100%;
+}
+
+.navbar_searchblock{
+    display: flex;
+    margin-top: 1.2rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar_searchlistbox{
+    display: block;
+    height: 80px;
+}
+
+@media screen and (min-width: 600px){
+    .navbar_searchlistbox{
+        height: 45px;
+    }
+}
+
+.navbar_searchbarblock{
+    height: 45px;
+    max-width: 768px;
+    display: flex;
+    
+    cursor: text;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(229, 232, 235);
+    width: 100%;
+    padding: 12px;
+}
+
+.searchicon{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.searchinput{
+    cursor: text;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    min-height: 20px;
+}

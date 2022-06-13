@@ -1,0 +1,29 @@
+.submit{
+    box-shadow: 0px 8px 20px black;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit:hover{
+  background-color: red;
+  box-shadow: 0px 15px 30px #f54242;
+  transform: translateY(-7px);  
+}
+.name{
+    border-width: thin;
+    border-color: black;
+    box-shadow: 0px 8px 10px black;
+}
+.name:focus{
+    box-shadow: 0px 10px 20px red;
+}
+.description{
+    border-width: thin;
+    border-color: black;
+    box-shadow: 0px 8px 10px black;
+}
+.description:focus{
+    box-shadow: 0px 10px 20px red;
+}
